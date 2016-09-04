@@ -15,5 +15,5 @@ def main(port):
 if __name__ == '__main__':
 	if not len(sys.argv) == 2:
 		print 'Please specify port in command line'
-		return
-	main(sys.argv[1])
+	else:
+		main(sys.argv[1])
