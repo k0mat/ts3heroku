@@ -13,7 +13,7 @@ def main(port):
 		print process.returncode
 
 if __name__ == '__main__':
-	if !len(sys.argv) == 2:
+	if not len(sys.argv) == 2:
 		print 'Please specify port in command line'
 		return
 	main(sys.argv[1])
